@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>WWW training</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var auto = {
+            marka: "Audi",
+            model: "A2",
+            cena: 5000 + "zł",
+            przebieg: 310 + " tyś",
+            tab_rej: "KWA 92J1",
+
+            show: function () {
+                document.write(this.marka + ' ' + this.model + ' ' + this.cena + "<br>");
+            },
+            show_detail: function () {
+                document.write(this.przebieg + ' ' + this.tab_rej);
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div class="main_header">
+        WWW training webside
+    </div>
+    <div class="JS_1">
+        <script>
+            auto.show();
+            auto.show_detail();
+        </script>
+    </div>
+</body>
+
+</html>

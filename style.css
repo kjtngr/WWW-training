@@ -1,0 +1,21 @@
+body {
+	margin: 0px;
+	font-family: arial;
+}
+.main_header {
+	height: 41px;
+	width: 330px;
+	border-bottom: 2px solid white;
+	font-size: 30px;
+	text-align: center;
+	padding: 7px 100% 7px 5px;
+	background-color: rgb(53, 144, 105);
+	color: white;
+}
+.JS_1 {
+	height: 200px;
+	width: 400px;
+	border: 3px solid rgb(53, 144, 105);
+	border-radius: 4px;
+	margin: 10px auto 0px auto;
+}
